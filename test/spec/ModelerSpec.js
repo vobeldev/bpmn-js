@@ -39,6 +39,8 @@ describe('Modeler', function() {
       }
     });
 
+    window.modeler = modeler;
+
     setBpmnJS(modeler);
 
     return modeler.importXML(xml).then(function(result) {
