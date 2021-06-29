@@ -211,7 +211,7 @@
     </bpmndi:BPMNLabelStyle>
   </bpmndi:BPMNDiagram>
   <bpmndi:BPMNDiagram id="sid-99dbb31d-282c-4375-a2d5-389e1cd78261">
-    <bpmndi:BPMNPlane id="sid-13f63b1b-2ab2-4733-8120-ab61bbf73700" bpmnElement="sid-54C8D792-1125-486E-AFC9-CD3D12629B1F">
+    <bpmndi:BPMNPlane id="sid-13f63b1b-2ab2-4733-8120-ab61bbf73700" bpmnElement="sid-54C8D792-1125-486E-AFC9-CD3D12629B1F" height="250" width="800" x="0" y="0">
       <bpmndi:BPMNShape id="sid-AB14D824-C8B9-4211-B224-C5AF8CED8BBD_gui" bpmnElement="sid-AB14D824-C8B9-4211-B224-C5AF8CED8BBD">
         <omgdc:Bounds x="150" y="140" width="30" height="30" />
       </bpmndi:BPMNShape>
@@ -268,7 +268,7 @@
     </bpmndi:BPMNLabelStyle>
   </bpmndi:BPMNDiagram>
   <bpmndi:BPMNDiagram id="sid-ae4365bc-f966-41be-afcc-46b793871c06">
-    <bpmndi:BPMNPlane id="sid-a413e973-0ed7-426e-add9-e60dfdb48741" bpmnElement="sid-57EE7728-8A90-40F1-A3AB-2A15CF58F4B7">
+    <bpmndi:BPMNPlane id="sid-a413e973-0ed7-426e-add9-e60dfdb48741" bpmnElement="sid-57EE7728-8A90-40F1-A3AB-2A15CF58F4B7" height="260" width="800" x="80" y="0">
       <bpmndi:BPMNShape id="sid-C67DBACD-2E96-4A69-97F0-9B04CCB255EC_gui" bpmnElement="sid-C67DBACD-2E96-4A69-97F0-9B04CCB255EC">
         <omgdc:Bounds x="230" y="130" width="30" height="30" />
       </bpmndi:BPMNShape>
