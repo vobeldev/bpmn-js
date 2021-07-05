@@ -127,6 +127,20 @@
     <sequenceFlow id="sid-DCB98638-BEBD-4548-B501-F0E29AC71ED4" sourceRef="sid-C586DCF2-0B1B-4878-8042-F9869023F21B" targetRef="sid-A53C38A9-456B-4AC9-9D4A-6EC9663BA77C" />
     <sequenceFlow id="sid-F7DA1903-6A1A-4858-AF4B-286A968C957F" sourceRef="sid-7412307A-1A0F-43BA-933B-6E84157B4E5B" targetRef="sid-F933E23F-9819-4662-A521-7D3E97851B0B" />
     <sequenceFlow id="sid-3FAE72F2-4037-4CBA-8B89-01D7FC7FF3E3" sourceRef="sid-F933E23F-9819-4662-A521-7D3E97851B0B" targetRef="sid-DA90DE99-58B0-4371-B71D-87A718ACB64D" />
+    <subProcess id="Activity_020z1ab">
+      <startEvent id="Event_1xebqmc">
+        <outgoing>Flow_06co61f</outgoing>
+      </startEvent>
+      <task id="Activity_1ujioaq">
+        <incoming>Flow_06co61f</incoming>
+        <outgoing>Flow_11z8var</outgoing>
+      </task>
+      <sequenceFlow id="Flow_06co61f" sourceRef="Event_1xebqmc" targetRef="Activity_1ujioaq" />
+      <endEvent id="Event_02imkfj">
+        <incoming>Flow_11z8var</incoming>
+      </endEvent>
+      <sequenceFlow id="Flow_11z8var" sourceRef="Activity_1ujioaq" targetRef="Event_02imkfj" />
+    </subProcess>
   </process>
   <bpmndi:BPMNDiagram id="sid-d04b291e-c7a7-45d5-9188-33b304061dde">
     <bpmndi:BPMNPlane id="sid-9e0f3f83-38fc-45ef-b062-e81f67359940" bpmnElement="sid-c0e088a1-aae1-4ed2-b939-5371e7cf26ad">
@@ -205,6 +219,26 @@
       <bpmndi:BPMNShape id="sid-C586DCF2-0B1B-4878-8042-F9869023F21B_gui" bpmnElement="sid-C586DCF2-0B1B-4878-8042-F9869023F21B">
         <omgdc:Bounds x="426.6666666666667" y="340" width="30" height="30" />
       </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_020z1ab_di" bpmnElement="Activity_020z1ab" isExpanded="false">
+        <omgdc:Bounds x="165" y="470" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Event_1xebqmc_di" bpmnElement="Event_1xebqmc">
+        <omgdc:Bounds x="80" y="492" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Activity_1ujioaq_di" bpmnElement="Activity_1ujioaq">
+        <omgdc:Bounds x="170" y="470" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Flow_06co61f_di" bpmnElement="Flow_06co61f">
+        <omgdi:waypoint x="116" y="510" />
+        <omgdi:waypoint x="170" y="510" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="Event_02imkfj_di" bpmnElement="Event_02imkfj">
+        <omgdc:Bounds x="332" y="492" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="Flow_11z8var_di" bpmnElement="Flow_11z8var">
+        <omgdi:waypoint x="270" y="510" />
+        <omgdi:waypoint x="332" y="510" />
+      </bpmndi:BPMNEdge>
     </bpmndi:BPMNPlane>
     <bpmndi:BPMNLabelStyle id="sid-70ac6795-1541-4bff-9692-af52c41ff72b">
       <omgdc:Font name="Arial" size="12" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false" />
