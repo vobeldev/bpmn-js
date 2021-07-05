@@ -211,7 +211,7 @@
     </bpmndi:BPMNLabelStyle>
   </bpmndi:BPMNDiagram>
   <bpmndi:BPMNDiagram id="sid-99dbb31d-282c-4375-a2d5-389e1cd78261">
-    <bpmndi:BPMNPlane id="sid-13f63b1b-2ab2-4733-8120-ab61bbf73700" bpmnElement="sid-54C8D792-1125-486E-AFC9-CD3D12629B1F" height="250" width="800" x="0" y="0">
+    <bpmndi:BPMNPlane id="sid-13f63b1b-2ab2-4733-8120-ab61bbf73700" bpmnElement="sid-54C8D792-1125-486E-AFC9-CD3D12629B1F" height="200" width="670" x="130" y="50">
       <bpmndi:BPMNShape id="sid-AB14D824-C8B9-4211-B224-C5AF8CED8BBD_gui" bpmnElement="sid-AB14D824-C8B9-4211-B224-C5AF8CED8BBD">
         <omgdc:Bounds x="150" y="140" width="30" height="30" />
       </bpmndi:BPMNShape>
@@ -268,7 +268,7 @@
     </bpmndi:BPMNLabelStyle>
   </bpmndi:BPMNDiagram>
   <bpmndi:BPMNDiagram id="sid-ae4365bc-f966-41be-afcc-46b793871c06">
-    <bpmndi:BPMNPlane id="sid-a413e973-0ed7-426e-add9-e60dfdb48741" bpmnElement="sid-57EE7728-8A90-40F1-A3AB-2A15CF58F4B7" height="260" width="800" x="80" y="0">
+    <bpmndi:BPMNPlane id="sid-a413e973-0ed7-426e-add9-e60dfdb48741" bpmnElement="sid-57EE7728-8A90-40F1-A3AB-2A15CF58F4B7" height="260" width="380" x="170" y="0">
       <bpmndi:BPMNShape id="sid-C67DBACD-2E96-4A69-97F0-9B04CCB255EC_gui" bpmnElement="sid-C67DBACD-2E96-4A69-97F0-9B04CCB255EC">
         <omgdc:Bounds x="230" y="130" width="30" height="30" />
       </bpmndi:BPMNShape>
@@ -295,7 +295,7 @@
     </bpmndi:BPMNLabelStyle>
   </bpmndi:BPMNDiagram>
   <bpmndi:BPMNDiagram id="sid-f5d9d966-cf88-431c-9d61-15d9dc46c15e">
-    <bpmndi:BPMNPlane id="sid-173663be-2b6b-4ade-8fe3-c18efb25424d" bpmnElement="sid-D0CDA908-DDCE-4E82-88D0-F1A919B8AE8B">
+    <bpmndi:BPMNPlane id="sid-173663be-2b6b-4ade-8fe3-c18efb25424d" bpmnElement="sid-D0CDA908-DDCE-4E82-88D0-F1A919B8AE8B" height="330" width="800" x="0" y="0">
       <bpmndi:BPMNShape id="sid-A13CFBB9-5471-4439-96FA-B65862CA7B21_gui" bpmnElement="sid-A13CFBB9-5471-4439-96FA-B65862CA7B21">
         <omgdc:Bounds x="190" y="170" width="30" height="30" />
       </bpmndi:BPMNShape>
@@ -384,5 +384,8 @@
     <bpmndi:BPMNLabelStyle id="sid-5c93997d-8918-4929-ab0e-64b8d394d5d4">
       <omgdc:Font name="Arial" size="12" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false" />
     </bpmndi:BPMNLabelStyle>
+  </bpmndi:BPMNDiagram>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1ijm8pv">
+    <bpmndi:BPMNPlane id="BPMNPlane_1yr5vgd" bpmnElement="sid-F933E23F-9819-4662-A521-7D3E97851B0B" />
   </bpmndi:BPMNDiagram>
 </definitions>
