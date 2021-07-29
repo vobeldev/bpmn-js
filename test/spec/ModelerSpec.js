@@ -32,7 +32,7 @@ describe('Modeler', function() {
 
     clearBpmnJS();
 
-    modeler = new Modeler({
+    window.modeler = modeler = new Modeler({
       container: container,
       keyboard: {
         bindTo: document
