@@ -595,7 +595,7 @@ describe('Modeler', function() {
 
     var m1, m2;
 
-    afterEach(function() {
+    false && afterEach(function() {
       if (m1) {
         m1.destroy();
       }
@@ -606,7 +606,7 @@ describe('Modeler', function() {
     });
 
 
-    it('should share Clipboard', function() {
+    it.only('should share Clipboard', function() {
 
       var aXML = require('./Modeler.copy-paste.a.bpmn');
       var bXML = require('./Modeler.copy-paste.b.bpmn');
