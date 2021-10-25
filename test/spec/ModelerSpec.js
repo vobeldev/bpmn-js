@@ -17,6 +17,7 @@ import {
 } from 'test/TestHelper';
 
 import { getDi } from 'lib/util/ModelUtil';
+import { assign } from 'min-dash';
 
 
 var singleStart = window.__env__ && window.__env__.SINGLE_START === 'modeler';
@@ -42,6 +43,19 @@ describe('Modeler', function() {
         bindTo: document
       }
     });
+
+    var eventBus = modeler.get('eventBus');
+
+    eventBus.on([ 'render.shape', 'render.connection' ], 5000, function(event, context) {
+      console.log(event, context);
+      context.attrs = assign({}, context.attrs, {
+        stroke: 'pink',
+
+        fill: '#eeeeee'
+      });
+      console.log(context);
+    });
+
 
     setBpmnJS(modeler);
 
