@@ -6,6 +6,8 @@ import {
 
 describe('draw - TextRenderer', function() {
 
+  this.timeout(30000);
+
   var diagramXML = require('./TextRenderer.bpmn');
 
 

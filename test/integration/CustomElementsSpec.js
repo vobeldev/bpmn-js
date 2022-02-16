@@ -25,6 +25,8 @@ var collaborationDiagramXML = require('../fixtures/bpmn/collaboration.bpmn');
 
 describe('custom elements', function() {
 
+  this.timeout(30000);
+
   describe('renderer', function() {
 
     beforeEach(bootstrapModeler(processDiagramXML, {
